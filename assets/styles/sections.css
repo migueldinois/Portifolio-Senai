@@ -1,0 +1,72 @@
+/* Configurações gerais */
+
+.sections-site {
+    width: 100vw;
+
+}
+
+/* Section SObre Mim */
+
+.section-sobre-mim {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFACD;
+    height: 100vh;
+    flex-direction: row-reverse;
+}
+
+.sobremim-personagem {
+    transition: 0.3s ease-in-out;
+    width: 20vw;
+
+}
+
+.sobremim-personagem:hover {
+    rotate: 5deg;
+}
+
+.textos-sobre-mim {
+    display: flex;
+    width: 40vw;
+    font-family: "Montserrat", sans-serif;
+    /* deixar mais distanciado as letras */
+    line-height: 1.5;
+    font-size: 2vh;
+    text-align: left;
+    flex-direction: column;
+    gap: 2vh;;
+    z-index: 100;
+    background-color: #ff994b;
+    color:  #FFFACD;
+    padding: 3vh;
+    border-radius: 2vh;
+    position: relative;
+}
+
+.textos-sobre-mim h3 {
+    color: chocolate;
+}
+
+.caixa-fundo-texto {
+    background-color:  #D2691E;
+    border-radius: 2vh;
+
+}
+
+
+
+.section-pratos {
+    background-color: rgb(255, 201, 169);
+    height: 100vh
+}
+
+.section-cozinha {
+    background-color: #FFFACD;
+    height: 100vh
+}
+
+.section-contato {
+    background-color: rgb(255, 201, 169);
+    height: 100vh
+}

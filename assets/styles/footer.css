@@ -1,0 +1,25 @@
+footer {
+    background-color: #0A0A0A;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2vw;
+}
+
+.icon-social {
+    width: 3vh;
+    margin: 0 1vw;
+    filter: invert(100%);
+    transition: 0.3s ease-in-out;
+}
+
+.icon-social:hover {
+    transform: scale(1.2);
+}
