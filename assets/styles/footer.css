@@ -1,5 +1,5 @@
 footer {
-    background-color: #0A0A0A;
+    background-color: #D2691E;
     height: 10vh;
     display: flex;
     justify-content: center;
@@ -17,9 +17,9 @@ footer {
     width: 3vh;
     margin: 0 1vw;
     filter: invert(100%);
-    transition: 0.3s ease-in-out;
+    transition: 1.3s ease-in-out;
 }
 
 .icon-social:hover {
-    transform: scale(1.2);
+    transform: rotate(360deg) scale(1.1);
 }

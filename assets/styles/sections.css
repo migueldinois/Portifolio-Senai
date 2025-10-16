@@ -42,6 +42,11 @@
     padding: 3vh;
     border-radius: 2vh;
     position: relative;
+    transition: 0.5s ease-in-out;
+}
+
+.textos-sobre-mim:hover {
+    transform: translateY(-10px) translateX(-10px);
 }
 
 .textos-sobre-mim h3 {
@@ -54,12 +59,71 @@
 
 }
 
-
+/* Seção pratos */
 
 .section-pratos {
     background-color: rgb(255, 201, 169);
-    height: 100vh
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.card {
+    display: flex;
+    background-color: #FFFACD;
+    width: 50vw;
+    height: 30vh;
+    padding: 0.5%;
+    border-radius: 1vh;
+    margin-bottom: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+    /*  aqui eu usei para subir para cima */
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px #D2691E; 
+}
+
+.foto-card {
+    width: 30%;
+    border: 1vh solid #8f4500;
+    border-radius: 1vh 0 0 1vh;
+    box-sizing: border-box;
+}
+
+.cards figcaption {
+    background-color: #D2691E;
+    border-radius: 0 1vh 1vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    text-align: center;
+}
+
+.cards h1 {
+    color: #F7F7F7;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2vw;
+    margin-bottom: 1vh;
+}
+
+.cards p {
+    color: #FFFACD;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1vw;
+    width: 90%;
+    line-height: 1.4;
+}
+
+
+
+
+
 
 .section-cozinha {
     background-color: #FFFACD;
@@ -70,3 +134,5 @@
     background-color: rgb(255, 201, 169);
     height: 100vh
 }
+
+/*

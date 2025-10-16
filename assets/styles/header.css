@@ -11,6 +11,12 @@ header {
 
 .logo-header {
     width: 6%;    
+    transition: 0.5s ease-in-out;
+}
+
+.logo-header:hover {
+    /* Para rodar por 360 graus */
+    transform: rotate(360deg)
 }
 
 .menu-header {
