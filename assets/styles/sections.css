@@ -131,10 +131,26 @@
 }
 
 
+.video-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 10vh;
+}
+
+.video-cozinha {
+    border-radius: 2vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease;
+    border-radius: 10%;
+}
+
+.video-cozinha:hover {
+    transform: scale(1.1)
+}
 
 .section-contato {
     background-color: rgb(255, 201, 169);
     height: 100vh
 }
 
-/*
