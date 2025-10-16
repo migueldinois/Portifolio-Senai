@@ -8,10 +8,6 @@ Bem-vindo ao **Pato Gourmet**: o site do chef mais charmoso das lagoas! Aqui voc
 
 <img src="assets/images/sobre-mim-pose.png" alt="Pato Gourmet" width="220" align="right">
 
-![preview](assets/images/prato01.png)
-![preview](assets/images/prato02.png)
-![preview](assets/images/prato03.png)
-
 Veja em ação:  
 Acesse o arquivo `pato-gourmet.html` em seu navegador favorito!
 
@@ -97,12 +93,6 @@ Acesse o arquivo `pato-gourmet.html` em seu navegador favorito!
 
 ---
 
-## 🗣️ Contato & Redes Sociais
-
-- [Instagram](https://instagram.com/patocozinheiro)
-- [Facebook](https://facebook.com/patocozinheiro)
-- [X (Twitter)](https://x.com/patocozinheiro)
-
 ---
 
 ## 👤 Autor
@@ -110,12 +100,3 @@ Acesse o arquivo `pato-gourmet.html` em seu navegador favorito!
 Feito por **Miguel Lima Dinois**  
 [GitHub](https://github.com/migueldinois)
 
----
-
-## 🪄 Licença
-
-MIT
-
----
-
-# 🌊 Bon appétit!
