@@ -45,6 +45,8 @@ header {
 
 .barra-pesquisa {
     margin-right: 1vw;
+    position: relative;
+    right: 1vw;
 }
 
 .input-pesquisa {
@@ -62,5 +64,5 @@ header {
     outline: none;
     box-shadow: 0 0 5px #ff6a00;
     transform: scale(1.05);
-}   
+}
 
