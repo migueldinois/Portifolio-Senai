@@ -32,7 +32,7 @@
     font-family: "Montserrat", sans-serif;
     /* deixar mais distanciado as letras */
     line-height: 1.5;
-    font-size: 2vh;
+    font-size: 20px;
     text-align: left;
     flex-direction: column;
     gap: 2vh;;
@@ -93,6 +93,12 @@
     box-sizing: border-box;
 }
 
+.cards {
+    display: flex;
+    flex-direction: column;
+    
+}
+
 .cards figcaption {
     background-color: #D2691E;
     border-radius: 0 1vh 1vh 0;
@@ -108,14 +114,14 @@
 .cards h1 {
     color: #F7F7F7;
     font-family: "Montserrat", sans-serif;
-    font-size: 2vw;
+    font-size: 34px;
     margin-bottom: 1vh;
 }
 
 .cards p {
     color: #FFFACD;
     font-family: "Montserrat", sans-serif;
-    font-size: 1vw;
+    font-size: 20px;
     width: 90%;
     line-height: 1.4;
 }
@@ -127,15 +133,19 @@
 
 .section-cozinha {
     background-color: #FFFACD;
-    height: 100vh
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .video-container {
     display: flex;
-    align-items: center;
-    height: 100%;
-    padding-left: 10vh;
+    padding-bottom: 5%;
+    justify-content: center;
+    
 }
 
 .video-cozinha {
@@ -148,6 +158,60 @@
 .video-cozinha:hover {
     transform: scale(1.1)
 }
+
+.funcionarios-cozinha {
+
+}
+
+.funcionario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
+    padding-top: 100px ;
+    
+}
+
+.funcionario figcaption {
+    display: flex;
+    flex-direction: column;
+    background-color: #D2691E;
+    width: 30%;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 30px;
+    transition: 0.5s ease;
+}
+
+.funcionario figcaption:hover {
+    transform: scale(1.1)
+
+}
+
+.funcionario figcaption > h1 {
+    padding: 10px;
+    font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+    color:#8f4500;
+}
+
+.funcionario figcaption > p {
+    font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFACD;
+    padding: 10px;
+}
+
+.foto-funcionario {
+    width: 30%;
+    border-radius: 50%;
+    border: 10px solid #D2691E;
+    transition: 0.3s ease-in-out;
+}
+
+.foto-funcionario:hover {
+    transform: translateY(-10px);
+}
+
 
 .section-contato {
     background-color: rgb(255, 201, 169);
